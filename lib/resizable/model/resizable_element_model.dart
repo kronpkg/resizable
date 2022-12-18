@@ -1,7 +1,7 @@
 import 'list_field_type.dart';
 
 class ResizableElementModel {
-  final ListFieldType type;
+  final ListFieldElement type;
   final void Function(Map<String, dynamic> data) onSave;
   final void Function() onChanged;
 

@@ -6,7 +6,10 @@ class ResizableElementModel {
   final void Function() onChanged;
 
   void save() {
-    onSave({'width': _width, 'isShow': _isShow});
+    onSave({
+      'width': _width,
+      'isShow': _isShow,
+    });
   }
 
   late double _width;

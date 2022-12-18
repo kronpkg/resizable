@@ -8,5 +8,9 @@ enum ListFieldType {
 
   final String valueName;
   final String key;
-  const ListFieldType({required this.valueName, required this.key});
+
+  const ListFieldType({
+    required this.valueName,
+    required this.key,
+  });
 }
